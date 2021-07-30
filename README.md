@@ -39,3 +39,6 @@ $ conda create -n alfabet -c conda-forge python=3.7 rdkit
 $ source activate alfabet
 $ pip install alfabet
 ```
+
+# 補足
+conda で　python3.7を選んでインストール。
