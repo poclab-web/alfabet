@@ -34,6 +34,15 @@ For additional details, see the (upcoming) publication:
 ## Installation
 Installation with `conda` is recommended, as [`rdkit`](https://github.com/rdkit/rdkit) can otherwise be difficult to install
 
+conda で 3.7を選ぶ。
+```
+conda install -c conda-forge python=3.7 rdkit
+pip install alfabet
+pip install jupyter
+```
+
+
+
 ```bash
 $ conda create -n alfabet -c conda-forge python=3.7 rdkit
 $ source activate alfabet
