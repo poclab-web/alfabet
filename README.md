@@ -1,3 +1,24 @@
+conda で 3.7を選ぶ。
+```
+conda install -c conda-forge python=3.7 rdkit
+pip install alfabet
+pip install jupyter
+```
+
+# ライブラリをインストール
+```
+pip install jupyter-contrib-nbextensions
+pip install jupyter-nbextensions-configurator
+```
+
+# jupyter拡張機能を有効化する
+```
+jupyter contrib nbextension install
+jupyter nbextensions_configurator enable
+```
+
+
+
 ![ALFABET logo](/docs/logo.svg)
 
 [![PyPI version](https://badge.fury.io/py/alfabet.svg)](https://badge.fury.io/py/alfabet)
@@ -33,13 +54,6 @@ For additional details, see the (upcoming) publication:
 
 ## Installation
 Installation with `conda` is recommended, as [`rdkit`](https://github.com/rdkit/rdkit) can otherwise be difficult to install
-
-conda で 3.7を選ぶ。
-```
-conda install -c conda-forge python=3.7 rdkit
-pip install alfabet
-pip install jupyter
-```
 
 
 
